@@ -1,6 +1,6 @@
 ---
 
-pageId: kontakt
+pageId: contact
 
 ---
 
