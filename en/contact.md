@@ -1,8 +1,7 @@
 ---
 pageId: contact
+title: Contact
 ---
-
-# Contact
 
 The best way to reach me is by email under [a.schiefner\[at\]uni-koeln.de](mailto:a.schiefner@uni-koeln.de). 
 
