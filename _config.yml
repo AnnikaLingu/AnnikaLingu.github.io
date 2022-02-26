@@ -5,18 +5,18 @@ url: "https://annikalingu.github.io/" # Site url, also used in jekyll-seo-tag
 
 
 navigation_header:
-  de:
-    Startseite: /de/
-    Über mich: /de/ueber/
-    #Forschung: /de/forschung/
-    #Wissenschaftskommunikation: /de/wisskomm/
-    Kontakt: /de/contact/
   en:
     Home: /
     About me: /en/about/
     #Research: /en/research/
     #Outreach: /en/outreach/
     Contact: /en/contact/
+  de:
+    Startseite: /de/
+    Über mich: /de/ueber/
+    #Forschung: /de/forschung/
+    #Wissenschaftskommunikation: /de/wisskomm/
+    Kontakt: /de/contact/
 
 
 
@@ -41,16 +41,17 @@ defaults:
       image: "/assets/default-social-image.png" # Default image for sharing
   -
     scope:
-      path: "de"
-    values:
-      language: "de"
-      layout: "page"
-  -
-    scope:
       path: "en"
     values:
       language: "en"
       layout: "page"
+  -
+    scope:
+      path: "de"
+    values:
+      language: "de"
+      layout: "page"
+
 
 
 # Site settings
