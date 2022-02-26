@@ -1,7 +1,6 @@
 ---
-
+language: de
 pageId: contact
-
 ---
 
 # Kontakt
