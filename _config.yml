@@ -6,13 +6,13 @@ url: "https://annikalingu.github.io/" # Site url, also used in jekyll-seo-tag
 
 navigation_header:
   de:
-    Startseite: /
+    Startseite: /de/
     Über mich: /de/ueber/
     Forschung: /de/forschung/
     Wissenschaftskommunikation: /de/wisskomm/
     Kontakt: /de/contact/
   en:
-    Home: /en/
+    Home: /
     About me: /en/about/
     Research: /en/research/
     Outreach: /en/outreach/
