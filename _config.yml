@@ -1,4 +1,75 @@
-name: Annika Schiefner
-markdown: kramdown
+title: "Annika Schiefner" # Site name or title, also used in jekyll-seo-tag
+# logo: "logo.svg" # Site logo, also used in jekyll-seo-tag
+description: "Personal website" # Site description and default description, also used in jekyll-seo-tag
+url: "https://annikalingu.github.io/" # Site url, also used in jekyll-seo-tag
 
-permalink: /blog/:year/:month/:day/:title
+
+navigation_header:
+  de:
+    Startseite: /
+    Über mich: /de/ueber/
+    Forschung: /de/forschung/
+    Wissenschaftskommunikation: /de/wisskomm/
+    Kontakt: /de/contact/
+  en:
+    Home: /en/
+    About me: /en/about/
+    Research: /en/research/
+    Outreach: /en/outreach/
+    Contact: /en/contact/
+
+
+
+twitter:
+  username: annischiefner # jekyll-seo-tag > Owners twitter username
+author: Annika Schiefner # jekyll-seo-tag > default author
+social: # jekyll-seo-tag > social overrides
+  name: Annika Schiefner # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://twitter.com/annischiefner
+    - https://www.linkedin.com/in/annika-schiefner
+    - https://github.com/AnnikaLingu
+
+
+
+# Jekyll collections settings
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: "/assets/default-social-image.png" # Default image for sharing
+  -
+    scope:
+      path: "de"
+    values:
+      language: "de"
+      layout: "page"
+  -
+    scope:
+      path: "en"
+    values:
+      language: "en"
+      layout: "page"
+
+
+# Site settings
+encoding: utf-8 # Make sure the encoding is right
+theme: alembic-jekyll-theme
+baseurl: "/"
+css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+
+
+# Jekyll settings
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: Europe/Berlin # Timezone for blog posts and alike
+
+
+# Installed plugins
+plugins:
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-latex
