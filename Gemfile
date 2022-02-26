@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 3.8.5"
 
-gem "alembic-jekyll-theme"
+gem "jekyll-remote-theme"
 
 group :jekyll_plugins do
 #  gem "jekyll-sitemap", "~> 1.2.0"
