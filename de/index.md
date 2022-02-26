@@ -1,5 +1,4 @@
 ---
-language: de
 pageId: home
 ---
 # Willkommen! 
