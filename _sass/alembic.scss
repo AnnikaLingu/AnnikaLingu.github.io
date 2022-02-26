@@ -13,16 +13,16 @@
 header {
     top: 0;
     position: sticky;
-    background-color: rgba(#437991, .537);
+    background-color: rgba(#008E89, .537);
     color: black; // Textfarbe für alles im Header, was kein Link ist (sprich für nix ;-))
 }
 
 header a {
-    color: rgba(#447a92, 1) // Textfarbe für Links im Header (sprich für alles im Header^^)
+    color: rgba(#085E7D, 1) // Textfarbe für Links im Header (sprich für alles im Header^^) - helles türkis
 }
 
 header a:hover {
-    color: white // Hier kommt die Textfarbe für die Links hin, über die man grade mit der Maus fährt
+    color: rgba(#FFD32D) // Hier kommt die Textfarbe für die Links hin, über die man grade mit der Maus fährt - gelb
 }
 
 header .item--current a {
