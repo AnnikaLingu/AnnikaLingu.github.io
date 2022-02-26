@@ -3,7 +3,7 @@ pageId: contact
 title: Kontakt
 ---
 
-Ihr erreicht mich am besten per Email unter [a.schiefner\[at\]uni-koeln.de](mailto:a.schiefner@uni-koeln.de). 
+Am besten erreicht man mich per Email unter [a.schiefner\[at\]uni-koeln.de](mailto:a.schiefner@uni-koeln.de). 
 
 Unregelmäßig bin ich auch persönlich im Büro anzutreffen: 
 
