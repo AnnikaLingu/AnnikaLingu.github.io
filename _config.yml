@@ -3,7 +3,6 @@ title: "Annika Schiefner" # Site name or title, also used in jekyll-seo-tag
 description: "Personal website" # Site description and default description, also used in jekyll-seo-tag
 url: "https://annikalingu.github.io/" # Site url, also used in jekyll-seo-tag
 
-
 navigation_header:
   en:
     Home: /
@@ -17,7 +16,6 @@ navigation_header:
     #Forschung: /de/research/
     #Wissenschaftskommunikation: /de/outreach/
     Kontakt: /de/contact/
-
 
 
 twitter:
