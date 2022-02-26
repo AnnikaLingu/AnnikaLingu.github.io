@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+// Import frameworks & theme styles
+@import
+  "normalize",
+  "settings",
+  "sassline-base",
+  "syntax",
+  "flex",
+  "theme"
+;
+
+header {
+    top: 0;
+    position: sticky;
+    background-color: rgba(#437991, .537);
+    color: black; // Textfarbe für alles im Header, was kein Link ist (sprich für nix ;-))
+}
+
+header a {
+    color: rgba(#447a92, 1) // Textfarbe für Links im Header (sprich für alles im Header^^)
+}
+
+header a:hover {
+    color: white // Hier kommt die Textfarbe für die Links hin, über die man grade mit der Maus fährt
+}
+
+header .item--current a {
+    color: rgba(#437991, .537);
+}
+
+h1 { font-size: 2.6rem !important; }
+h2 { font-size: 1.8rem !important; }
+h3 { font-size: 1.3rem !important; }
+p { font-size: 1rem !important; }
