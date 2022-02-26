@@ -1,0 +1,11 @@
+<nav class="nav  nav--footer">
+  <ul class="list list--nav">
+    {% assign items=site.html_pages | where:"pageId", page.pageId | sort: 'language' %}
+    
+    {% for item in items %}
+      <li class="item  item--nav{% if item[1] == page.url %}  item--current{%endif %}">
+        <a href="{{ item.url | relative_url }}" class="{{ item.language }}">{{ item.language | upcase }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
