@@ -22,7 +22,7 @@ header a {
 }
 
 header a:hover {
-    color: rgba(#FFD32D) // Hier kommt die Textfarbe für die Links hin, über die man grade mit der Maus fährt - gelb
+    color: rgba(#FFD32D, 1) // Hier kommt die Textfarbe für die Links hin, über die man grade mit der Maus fährt - gelb
 }
 
 header .item--current a {
