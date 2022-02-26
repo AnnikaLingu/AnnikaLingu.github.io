@@ -55,6 +55,7 @@ defaults:
 # Site settings
 encoding: utf-8 # Make sure the encoding is right
 remote_theme:  daviddarnes/alembic@main
+theme: alembic-jekyll-theme
 baseurl: "/"
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
