@@ -1,7 +1,6 @@
 ---
 pageId: about
+title: About me
 ---
-
-# About me
 
 I will add information on myself here in the near future.
