@@ -8,14 +8,14 @@ navigation_header:
   de:
     Startseite: /de/
     Über mich: /de/ueber/
-    Forschung: /de/forschung/
-    Wissenschaftskommunikation: /de/wisskomm/
+    #Forschung: /de/forschung/
+    #Wissenschaftskommunikation: /de/wisskomm/
     Kontakt: /de/contact/
   en:
     Home: /
     About me: /en/about/
-    Research: /en/research/
-    Outreach: /en/outreach/
+    #Research: /en/research/
+    #Outreach: /en/outreach/
     Contact: /en/contact/
 
 
