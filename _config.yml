@@ -13,9 +13,9 @@ navigation_header:
     Contact: /en/contact/
   de:
     Startseite: /de/
-    Über mich: /de/ueber/
-    #Forschung: /de/forschung/
-    #Wissenschaftskommunikation: /de/wisskomm/
+    Über mich: /de/about/
+    #Forschung: /de/research/
+    #Wissenschaftskommunikation: /de/outreach/
     Kontakt: /de/contact/
 
 
